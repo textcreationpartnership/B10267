@@ -1,0 +1,473 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The examinations of Faithful Commin Dominican Fryar, as Sir James Ware had them from the late Lord Primate Usher, being one of the memorials of the Lord Cecil.</title>
+            <author>Ware, Robert.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1679</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 21 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B10267</idno>
+            <idno type="OCLC"> 80925331</idno>
+            <idno type="STC">Wing W847AC</idno>
+            <idno type="STC">ESTC R186262</idno>
+            <idno type="EEBO-CITATION">80925331</idno>
+            <idno type="OCLC">ocm 80925331</idno>
+            <idno type="VID">192169</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B10267)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 192169)</note>
+            <note>Images scanned from microfilm: (Early English books; 1641-1700 ; 2901:23)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The examinations of Faithful Commin Dominican Fryar, as Sir James Ware had them from the late Lord Primate Usher, being one of the memorials of the Lord Cecil.</title>
+                  <author>Ware, Robert.</author>
+               </titleStmt>
+               <extent>8 p.   </extent>
+               <publicationStmt>
+                  <publisher>Published by Rob. Ware, Esq;,</publisher>
+                  <pubPlace>[Dublin?] :</pubPlace>
+                  <date>printed in the year, M. DC. LXXIX. [1679]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Place of publication suggested by Wing.</note>
+                  <note>Reproduction of original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Commin, Faithful.</term>
+               <term>Catholic Church --  Clergy --  Early works to 1800.</term>
+               <term>Dissenters, Religious --  England --  Early works to 1800.</term>
+               <term>Clergy --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-04</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2012-04</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:192169:1"/>
+            <pb facs="tcp:192169:1" rendition="simple:additions"/>
+            <p>THE EXAMINATIONS OF Faithful Commin DOMINICAN FRYAR, AS Sir <hi>James Ware</hi> had them from the late Lord PRIMATE <hi>
+                  <g ref="char:V">Ʋ</g>SHER,</hi> Being One of the MEMORIALS of the LORD <hi>CECIL.</hi>
+            </p>
+            <p>Publiſhed by <hi>ROB. WARE,</hi> 
+               <abbr>Eſq</abbr>
+            </p>
+            <p>Printed in the Year, M.DC.LXXIX.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:192169:2"/>
+            <head>To the Reader.</head>
+            <p>THe Impoſtors that dayly appear in the Mode of preciſe or Nonconformiſt Preachers,<note place="margin">The Demon<g ref="char:EOLhyphen"/>ſtrance of a Nonconfor<g ref="char:EOLhyphen"/>miſt.</note> will not ſeem ſtrange to thoſe that ſhall conſider the Story here preſented, (collected by my Dear Father out of Primate <hi>Uſhers</hi> Manuſcripts;) and how the grand Enemies of the Reformed Religion (compriſed under the Name of Proteſtancy) do not care in what way they attack it, ſo that they can but deſtroy or diſgrace it.</p>
+            <p>Therefore all good Proteſtants have need to take warning, that they admit of no Novel Teachers,<note place="margin">A Caution to the Church of <hi>England.</hi> The Advan<g ref="char:EOLhyphen"/>tages that <hi>Rome</hi> gets by Prote<g ref="char:EOLhyphen"/>ſtants not being united and confor<g ref="char:EOLhyphen"/>mable.</note> or ſuch as pretend to New Lights amongſt them.</p>
+            <p>It is a double Advantage that the Pope and the Devil gets by ſuch Inſtruments, that under the Name of any Sect of Religion, that are contrary to the Church of <hi>Rome,</hi> can not only debauch the People they communicate with, into the moſt horrid acts of Im<g ref="char:EOLhyphen"/>piety, but cover their own Guilt, and caſt the ſhame of them upon others, as was too palpable in that unparallelled Villany in De<g ref="char:EOLhyphen"/>ſtroying His late Majeſty by Popiſh Emiſsaries, in Presbyterian and Independent Guiſes, and then leaving the Obloquy upon both.</p>
+            <p>The Antiquity of this Example,<note place="margin">
+                  <hi>Romes</hi> Ma<g ref="char:EOLhyphen"/>lice to the Church of <hi>England</hi> e<g ref="char:EOLhyphen"/>ven from its firſt Riſe—</note> ſet forth in this <hi>Faithfull Commin,</hi> may inform all good people, that the Malice and De<g ref="char:EOLhyphen"/>ſigns of <hi>Rome</hi> againſt Truth, that began to ſhine in the days of that Defender of the Faith, Queen <hi>Elizabeth,</hi> are near as old as the Reformation it ſelf. And yet the Growth and Progreſs it hath made ſince, ſhews it will never dye, whilſt that Apoſtate Church hath Wealth or Power to ſupport it. Which God of his mercy put a ſpeedy end to, that we may once again enjoy our Li<g ref="char:EOLhyphen"/>berties, without fear, to the Rejoycing of all well meaning people.</p>
+            <closer>
+               <signed>Your Humble Servant R. WARE.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="3" facs="tcp:192169:2"/>
+            <head>
+               <hi>The</hi> EXAMINATION OF <hi>FAITHF<g ref="char:V">Ʋ</g>LL COMMIN</hi> the Dominican <hi>Fryer,</hi> who pretended to be a Godly Preacher <hi>Anno.</hi> 1567.</head>
+            <p>
+               <hi>FAithfull Commin,</hi> of the Order of Saint <hi>Dominick</hi> Anno, 1567. to all Peo<g ref="char:EOLhyphen"/>ples Imaginations ſuppoſed to be a Strict <hi>Proteſtant</hi> againſt the Church of <hi>Rome,</hi> was brought before Her GRACE our Dread Sovereign Queen <hi>Eli<g ref="char:EOLhyphen"/>zabeth,</hi> of <hi>England France</hi> and <hi>Ireland</hi> Queen, and Her Majeſties moſt Ho<g ref="char:EOLhyphen"/>nourable Council on Munday the fifth of <hi>April,</hi> being accuſed for ſowing of Sedition amongſt Her Majeſties Faithful Subjects, by the Teſtimony of <hi>John Clerkſon</hi> Chap<g ref="char:EOLhyphen"/>line to his Grace <hi>Mathew Parker</hi> Arch-biſhop of <hi>Ganterbury;</hi> as alſo by the Te<g ref="char:EOLhyphen"/>ſtimonies of <hi>Nicholas Draper</hi> and <hi>Mary Dean,</hi> all being Sworn upon the Holy <hi>Evan<g ref="char:EOLhyphen"/>geliſts,</hi> That the ſaid <hi>Faithfull</hi> was an Impoſtor, Notwithſtanding he Preached a<g ref="char:EOLhyphen"/>gainſt <hi>Pope Pius Quintus,</hi> the <hi>Pope</hi> of <hi>Rome.</hi>
+            </p>
+            <div type="part">
+               <head>The Arch-biſhops Queſtions.</head>
+               <sp>
+                  <p>
+                     <hi>Faithfull Commin,</hi> what Profeſſion art thou off?</p>
+               </sp>
+               <sp>
+                  <speaker>Anſwer.</speaker>
+                  <p>Of Chriſts Order.</p>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <p>What Order is that?</p>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <p>A Preacher of the Holy Goſpel.</p>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <p>What Goſpel is that you call the Holy Goſpel?</p>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <p>The Goſpel of Jeſus Chriſt.</p>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <p>Under whoſe power do you Own to hold that Holy Goſpel?</p>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <p>Under Chriſt and his Saints.</p>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <p>Do you acknowledg any other power ſave Chriſt, to be on Earth?</p>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <p>Yes I do.</p>
+               </sp>
+               <sp>
+                  <speaker>Q</speaker>
+                  <p>What power is that?</p>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <p>The Holy Catholique Church.</p>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <p>Do you not acknowledg a <hi>Defender</hi> of the Holy Catholique Faith?</p>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <p>God is the only <hi>Defender</hi> thereof.</p>
+               </sp>
+               <sp>
+                  <speaker>The A<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ch-biſhop to Her Majeſtie.</speaker>
+                  <p>Your Gracious Majeſtie may perceive, that this Man either hath been Inſtructed what to ſay, or otherwiſe he muſt be by his an<g ref="char:EOLhyphen"/>ſwers a man of Craft.</p>
+               </sp>
+               <sp>
+                  <speaker>The Queen.</speaker>
+                  <p>I ſuppoſe ſo my Lord.</p>
+               </sp>
+               <p>Then <hi>Faithfull Commin,</hi> being commanded to withdraw, Her <hi>Grace</hi> and the whole Councell Conſulted what to do, and how to proceed further in this matter, cau<g ref="char:EOLhyphen"/>ſed the ſaid <hi>John Clerkſon</hi> to come in before the Board.</p>
+               <sp>
+                  <speaker>The Queen.</speaker>
+                  <p>What is your name.?</p>
+               </sp>
+               <sp>
+                  <speaker>Jo. Clerkſon</speaker>
+                  <p>May it pleaſe Your <hi>Grace,</hi> my name is <hi>John Clerkſon.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>The Queen.</speaker>
+                  <p>Were you acquainted with <hi>Faithfull Commin?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Jo. Clerkſon.</speaker>
+                  <p>I was.</p>
+               </sp>
+               <sp>
+                  <pb n="4" facs="tcp:192169:3"/>
+                  <speaker>The Queen.</speaker>
+                  <p>How long?</p>
+               </sp>
+               <sp>
+                  <speaker>Jo. Clerkſon.</speaker>
+                  <p>Within this year and more.</p>
+               </sp>
+               <sp>
+                  <speaker>The Queen.</speaker>
+                  <p>What have you ſay againſt <hi>Faithful</hi> Commin, that he is ſuſpected to be an Impoſtor.</p>
+               </sp>
+               <sp>
+                  <speaker>Jo. Clerkſon.</speaker>
+                  <p>Three things.</p>
+               </sp>
+               <sp>
+                  <speaker>The Queen.</speaker>
+                  <p>What be they?</p>
+               </sp>
+               <sp>
+                  <speaker>Jo, Clerk.</speaker>
+                  <p>Thr<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> things, Firſt let him prove his Ordination ſince he fell from the <hi>Dominican</hi> Order.</p>
+                  <p>Secondly, why he never cometh to the Prayers of the now Eſt<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>bliſhed Church of <hi>England;</hi> but <gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>arteth up and Preacheth to the people not coming into the Church, till the Prayers be finiſhed. Thirdly, let him prove that he ever Re<g ref="char:EOLhyphen"/>ceived the Sacrament, according to the Church of <hi>England,</hi> from any of our Or<g ref="char:EOLhyphen"/>thodox <hi>Clergy-men.</hi>
+                  </p>
+               </sp>
+               <p>Her <hi>Grace</hi> and the Councell conſidering of theſe three things, ſent out for the ſaid <hi>Faithful</hi> Commin to come in.</p>
+            </div>
+            <div type="part">
+               <head>The Arch-Biſhop.</head>
+               <sp>
+                  <speaker>Queſt</speaker>
+                  <p>Were you ever Ordained?</p>
+               </sp>
+               <sp>
+                  <speaker>An.</speaker>
+                  <p>Yes I was Ordained.</p>
+               </sp>
+               <sp>
+                  <speaker>Queſt.</speaker>
+                  <p>By whom?</p>
+               </sp>
+               <sp>
+                  <speaker>An.</speaker>
+                  <p>By the Cardinal (meaning <hi>Poole.</hi>)</p>
+               </sp>
+               <sp>
+                  <speaker>Qu.</speaker>
+                  <p>Had you not other Certificate ſince under any of the Biſhops hands, ſince the Reformation?</p>
+               </sp>
+               <sp>
+                  <speaker>An.</speaker>
+                  <p>Not any.</p>
+               </sp>
+               <sp>
+                  <speaker>Qu.</speaker>
+                  <p>Wherefore would you dare to Preach, having not got a Licence or Per<g ref="char:EOLhyphen"/>miſſion under ſome of Our Biſhops hands; How ſhall We be Certified that you are not of the <hi>Romiſh</hi> Church?</p>
+               </sp>
+               <sp>
+                  <speaker>An.</speaker>
+                  <p>There are ſeveral have heard my Prayers, and my Sermons, and can teſ<g ref="char:EOLhyphen"/>tifie that I have ſpoken againſt <hi>Rome</hi> and her <hi>Pope,</hi> as much as any of the <hi>Clergy</hi> have done ſince they have fallen from her; I wonder therefore why I ſhould be ſuſpected.</p>
+               </sp>
+               <sp>
+                  <speaker>An.</speaker>
+                  <p>B. By your anſwer I perceive Mr. <hi>Commin,</hi> you would have any one Preach, ſo that he ſprake but againſt the <hi>Pope</hi> in his Sermons.</p>
+               </sp>
+               <sp>
+                  <speaker>An.</speaker>
+                  <p>Not every one, ſave he whoſe Function it is, and he who hath the ſpirit.</p>
+               </sp>
+               <sp>
+                  <speaker>Queſt.</speaker>
+                  <p>What ſpirit is this you mean?</p>
+               </sp>
+               <sp>
+                  <speaker>An.</speaker>
+                  <p>The ſpirit of Grace and Truth.</p>
+               </sp>
+               <sp>
+                  <speaker>Queſt.</speaker>
+                  <p>But is this ſpirit that is in you, either the ſpirit of Grace or Truth, that doth not comply with the Orders of the Church, lately purged and Cleanſed from S<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>iſm and Idolatry?</p>
+               </sp>
+               <sp>
+                  <speaker>Anſ.</speaker>
+                  <p>Therefore I en<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>eavour to make it purer, as far as God permits me.</p>
+               </sp>
+               <sp>
+                  <speaker>Queſt.</speaker>
+                  <p>How do you endeavour to make the Church purer, when you neither Commune with Her Sacrament, or in Prayer.</p>
+               </sp>
+               <sp>
+                  <speaker>Anſ.</speaker>
+                  <p>Yes I endeavour it when I pray to God, That He would open the Eyes of Men to ſee their Errors &amp; feveral have joyned with me when I have prayed amongſt them, and <hi>I</hi> have both given, and taken the Body of Chriſt to thoſe of tender con<g ref="char:EOLhyphen"/>ſciences, who have aſſemblae with me together in the fear of the Lord.</p>
+               </sp>
+               <sp>
+                  <pb n="5" facs="tcp:192169:3"/>
+                  <speaker>Q.</speaker>
+                  <p>By your words, you have then a Congregation that follows you? </p>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <p>I have.</p>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <p>Of what Pariſh, and in what Dioſceſs?</p>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <p>Neither of any certain Pa<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>iſh, or in any certain Dioſceſs.</p>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <p>Where then, I pray?</p>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <p>Even in the wide World amongſt the Flock of Chriſt, ſcatter'd over the whole Earth.</p>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <p>Your Dioſceſs is very large, Mr. <hi>Commin.</hi>
+                  </p>
+               </sp>
+               <p>
+                  <hi>Faithfull Commin</hi> being commanded to withdraw, the other two Witneſſes were called into the Council-Chamber.</p>
+               <sp>
+                  <speaker>The Queen.</speaker>
+                  <p>Mr. <hi>Draper,</hi> what have you to ſay to this <hi>Faithfull Commin?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>T. Draper,</speaker>
+                  <p>He came to my houſe at the <hi>Maidenhead</hi> in <hi>Maidſtown,</hi> with ſeveral of his Followers, where they beſpoke a Joint of Mutton, and two Hens for a Dinner, hearing that my Profeſſion was a Cook. I ſhewing him a Room, for him and the Company that came with him, perceived ſeveral to come and enquire for this Mr. <hi>Commin;</hi> but by chance going up the ſtairs, I heard one groan and weep, which cauſed me to lift up the Latch, at the firſt I was ſtartled, and ſtood in a maze; but enquiring of one of his Followers what ayled the Man, he replied, Do you not ſee that wee be all at Prayers? The Maid wondering where I was, came to ſeek me, and found me amongſt them, and can teſtifie the very ſame.</p>
+               </sp>
+               <sp>
+                  <speaker>The Queen,</speaker>
+                  <p>Are you Mr. <hi>Drapers</hi> Maid?</p>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <p>Yes, may it pleaſe your Grace.</p>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <p>What is your Name?</p>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <p>My Name is <hi>Mary Deane.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <p>Did you ſee this <hi>Faithfull Commin,</hi> that was here before Us now, praying to the people.</p>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <p>I ſaw him, and I thought he was diſtracted, when I heard him pray; but the people ſaid he was a heavenly man, and that it was Gods Spirit made him weep for the Sins of the World.</p>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <p>How long continued they at Prayers, do you know Mr. <hi>Draper?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <p>May it pleaſe your Grace about two hours, or near that time.</p>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <p>What did they after that they had prayed?</p>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <p>Some went from the Houſe, and about ten, or thereabouts, ſtayed to eat what they had beſpoken, and paid me to the utmoſt penny.</p>
+               </sp>
+               <sp>
+                  <speaker>The Queen,</speaker>
+                  <p>Call in this <hi>Faithfull Commin.</hi>
+                  </p>
+                  <p>Mr <hi>Commin,</hi> if you will receive Orders, and become of the Church of <hi>England,</hi> you may; otherwiſe you muſt not be permitted to pray or preach amongſt my Sub<g ref="char:EOLhyphen"/>jects, and though you have, as appears by ſeveral other Witneſſes, preached againſt the Pope; yet have you uſurped over the Power both of State and Church, in doing contrary to the Orders that We, Our Council and Parliament have unanimouſly a<g ref="char:EOLhyphen"/>greed on by and with the whole Conſent of the Clergy of my Realm.</p>
+               </sp>
+               <sp>
+                  <speaker>F. C. A.</speaker>
+                  <p>Give me time to conſider, and to prepare my ſelf, and I ſhall give your Grace a further Anſwer in a ſhort ſpace.</p>
+               </sp>
+               <sp>
+                  <speaker>Q</speaker>
+                  <p>I there any will be bound for your Appearance, otherwiſe you muſt be kept cloſe priſoner; for we have other Examinations to take, and queſtions to demand.</p>
+               </sp>
+               <sp>
+                  <speaker>F. C.</speaker>
+                  <p>I have three who will anſwer for my Appearance.</p>
+               </sp>
+               <pb n="6" facs="tcp:192169:4"/>
+               <p> Then came <hi>Richard Bland</hi> Brother to the ſaid <hi>Faithfull</hi> by the Mothers ſide, and two others, which gave Bond for his Appearance.</p>
+               <p>
+                  <label>April 12.</label> Mr. <hi>Commin</hi> appearing before Her Majeſty and the Council, it was put off till the next day, by reaſon of the <hi>Spaniſh</hi> Embaſſadors Appearance before Her Grace, who had that day Audience. But it ſell out, that the ſaid <hi>Faithfull</hi> having appeared, according to the Bonds of thoſe who were bound for the ſaid <hi>Faithfulls</hi> Appearance, that this ſaid <hi>Faithfull</hi> gave them all the ſlip, and never appeared afterwards; ſo that the Farties being ſummoned to appear, for to anſwer the Penalties of the Bond, made this Anſwer to the whole Council, that the ſaid <hi>Faithfull</hi> appeared, but they were not bound for his ſecond Appearance, by reaſon they never demanded them to be bound, or gave them any further Charge of him; ſo theſe Bonds-men came off and paid nothing.</p>
+               <p>This <hi>Faithfull Commin</hi> coming before his Followers the ſame day, told them, that Her Majeſty and the Council had quitted him, And that he was warned by God to go beyond Seas, there to inſtruct the Proteſtants, and that he would return to his Flock e're long with better ſucceſs. Saying to the people, that Spiritual Prayers was the chief Teſtimony of a true Proteſtant, and that the ſet Form of Prayer in <hi>England</hi> was but Maſs tranſlated. So after he had prayed an extemporary prayer, he feigned a Crocadile-like weeping before all of his Flock, and took leave of them; ſaying, that he had not a farthing to ſupport him in his Journey; yet, it being Gods Cauſe, he intended to undertake it out of Charity; he was certain that the Almighty would raiſe him up Friends where ever he travelled. Upon this Speech of his, the poor ſimple people fell moſt of them a weeping, eſpecially the Women, who mov<g ref="char:EOLhyphen"/>ing their Husbands to contribute to this Impoſtor, who was amongſt them eſteemed as a Demy God: ſo that it appeared upon further enquiry, after he had eſcaped out of <hi>England,</hi> that at that preſent the poor people collected for him, 130 <hi>l.</hi> over and above what the ſilly women gave him unknown to their Husbands.</p>
+               <p>
+                  <label>April 13.</label> The next day the Council waiting on Her Grace at the Board, and ſeve<g ref="char:EOLhyphen"/>ral numbers attending to hear this Impoſtor examined, ſtaid a long time; Her Grace and the Council wondering at this delay, ſent unto his Brother <hi>Richard Bland,</hi> and the other two, who were Bail for this Impoſtors Appearance. They coming before Her Grace and the reſt of the Council, made this Anſwer, We have performed as much as we undertook to perform; but had we received any further Directions from Your Grace, and this Honourable Board, for to have brought him this day, we ſhould have obeyed Your Commands; but You ſpoke unto the party accuſed to come this day, and not to us; ſo that we ſuppoſe our ſelves to be releaſed of what we had undertaken, having preſented him before your Grace and this Honourable Board.</p>
+               <p>It being a publick Hearing, and the Auditors that were preſent, in expectation to have heard <hi>Commin</hi> ſpeak, and not thoſe who were bound for him, cauſed the Coun<g ref="char:EOLhyphen"/>cils he to rage more than ordinary; hereupon the Council cauſed ſearches immedi<g ref="char:EOLhyphen"/>ately to be made over all <hi>London</hi> and <hi>Kent,</hi> eſpecially where ever they ſuſpected him to be, but could not find him; for he was fled that very evening: yet by this Inquiry, they found out ſeveral of Creatures whom he had deluded, and the true Relation of what Sums of Money, the poor people had gathered, and beſtowed on him. Moſt of theſt who were ſuppoſed to be of this Impoſtors Freek, were examined before Her
+<pb n="7" facs="tcp:192169:4"/>Graces Privy Council, who ſaid, that to their opinions and thoughts they had ne<g ref="char:EOLhyphen"/>ver beheld ſo Zealous and ſo Heavenly a man as he ſeemed to be.</p>
+               <p>
+                  <label>Septem. 14th.</label> 
+                  <hi>By</hi> a Veſſel arriving at <hi>Portsmouth,</hi> called the <hi>Swan</hi> of <hi>London,</hi> John <hi>Baker,</hi> being the Maſter of the ſame, among other Diſcourſes declared how he had ſeen <hi>Faithfull Commin</hi> in the <hi>Low Countries,</hi> and ſome of the Council hear<g ref="char:EOLhyphen"/>ing of this Mans arrivall, acquainted the <hi>Queen</hi> with what they had heard, concer<g ref="char:EOLhyphen"/>ning this Villain: Upon which information Her Majeſtie, and the Reſt of the Privie Council ſent a Purſevant for the ſaid <hi>John Baker,</hi> who comeing to the man on the <hi>20th</hi> of this ſaid inſtant, and found him abed, the man was ſtartled, and demanded of the Purſevant what was his Crime, the Purſevant made anſwer, he knew not what it was he was ſent for, only it was Her <hi>Graces</hi> Will and the Councils to ſpeak with him: Yet the poor man, whether through ſear, or to Comage his ſpirits, call'd for a Cup of <hi>Sack,</hi> and Drank Her <hi>Graces</hi> Health to the Purſevant, ſaying (her's a health to my Royall <hi>Queen;</hi>) if She intends to Try my Fidelity, and Employ me in her <hi>Navy,</hi> I will venture all the Blood in my Body to Defend Her <hi>Graces</hi> Right. But when he appeared before the Board, they Demanded of him, if he had ſeen <hi>Faithfull Commin,</hi> he made anſwer, he had ſeen him in the <hi>Low Countries,</hi> and enquiring further he related this Relation as followes.</p>
+               <p>Coming with other Veſſels to Land ſome Goods at <hi>Amſterdam, Martin Van Davall</hi> a Merchant of that <hi>City</hi> hearing me Talk of this man, told me, that this <hi>Commin,</hi> had been lately at <hi>Rome,</hi> and that <hi>Pope Pius</hi> the <hi>5th.</hi> cauſed him to be Clapt up in Priſon, and that <hi>Commin</hi> had wrote to his Holineſs the next day, ſay<g ref="char:EOLhyphen"/>ing, that he had ſomething to ſay unto his Holineſs, upon which the <hi>Pope</hi> ſent for him, and as ſoon as he had ſeen Mr. <hi>Commin,</hi> he ſpoke to him, ſaying, Sir I have heard how you have ſet me, and my Predeceſſors forth amongſt your Hereticks of <hi>England,</hi> by Railing againſt my Perſon and my Church. And that <hi>Commin</hi> made anſwer, I confeſs my Lips have open'd that which my Heart thought otherwaies. But your Holineſs little thinks that I have done you a kindneſs, not<g ref="char:EOLhyphen"/>withſtanding I have ſpoken ſo much againſt your Holineſs. And that the <hi>Pope</hi> ſhould Returne <hi>Commin</hi> this anſwer (How in the Name of <hi>Jeſus Mary,</hi> &amp; of all His Saints haſt thou done ſo?) and that <hi>Commin</hi> ſhould make this anſwer ſaying, I Preached againſt ſet Forms of Prayer, and <hi>I</hi> called the <hi>Engliſh</hi> Prayers (<hi>Engliſh Maſs,</hi>) and have perſwaded ſeverall to pray Spritually and <hi>Extempore,</hi> which hath taken ſo much with the People that the Church of <hi>England</hi> is become as Odious to that Sort whom I inſtructed, as <hi>Maſs</hi> is to them, which will never be but a Stumbling Block to that <hi>Church,</hi> while it is a <hi>Church,</hi> and that upon this Relation the <hi>Pope</hi> Che<g ref="char:EOLhyphen"/>riſhed him, and gave him 2000 Duckets for his Labour.</p>
+               <p>Her <hi>Grace,</hi> and the Whole Council, thanking Mr. <hi>John Baker</hi> for his Relation, bad him withdraw, and upon this Information wrote over to Her Correſpondents be<g ref="char:EOLhyphen"/>yond Seas, if poſſible he might be ſent ever hither in to <hi>England,</hi> but it being talk<g ref="char:EOLhyphen"/>ed all over <hi>England,</hi> how that the <hi>Pope</hi> had Rewarded this Impoſtor, ſome know<g ref="char:EOLhyphen"/>ing where he was, gave him notice, and thereby he Eſcaped out of thoſe Territories and fled into the <hi>Romiſh</hi> holdings.</p>
+               <p>The Council Conſulting with Her <hi>Grace,</hi> to prevent not only <hi>Popery,</hi> but all other Sectaries, cauſed an Act to be Framed and to be Enacted, that the ſeve<g ref="char:EOLhyphen"/>rall Miniſters of ſeverall <hi>Pariſhes,</hi> ſhould take the Names of all the Families li<gap reason="illegible" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>ing
+<pb n="8" facs="tcp:192169:5"/>within the ſeveral Pariſhes, both Male <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd Female from Ten years of Age, and that every <hi>Pariſh</hi> ſhould have a certaine Clerk for that purpoſe, and that every houſe within the ſaid <hi>Pariſh</hi> ſhould have a particular ſeat for them and their Families; Each Man or Woman miſſing prayers every <hi>Sunday,</hi> to forfeit a ſhilling, Excepting thoſe who had Certificates under a Proteſtant <hi>Phyſitians</hi> hand to be ſick, The Clerk to have one third part, the poor the ſecond third part, and the third towards the Church for Broomes, Sweet ſtrowing <hi>Herbs, Flowers,</hi> and <hi>Buſhes,</hi> &amp;c.</p>
+               <p>
+                  <hi>This Act</hi> at Firſt, was <hi>Irkſom</hi> to many; but at long running, rather then a Maſter would pay for his Family, or for his Servants they began to come to Pray<g ref="char:EOLhyphen"/>ers and Sermons. Then the Clerks ſpying but little to be got, when the People began to come to Church, neglected their Office, and ſeverall agreeing with the Miniſters of Each Pariſh, to give them a yearly Stipend, the <hi>Act</hi> ceaſed, and <hi>Popery</hi> and <hi>Sectaries</hi> increaſed</p>
+               <p>This being a Copy of the <hi>Lord Cecills</hi> Memorandums of <hi>Faithfull Commin,</hi> with many other Memorandums in the ſame Book worth the Printing; which Book was amongſt Arch-Biſhop <hi>
+                     <g ref="char:V">Ʋ</g>ſhers</hi> Manuſcripts before his Death.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:192169:5"/>
+         </div>
+      </body>
+   </text>
+</TEI>
